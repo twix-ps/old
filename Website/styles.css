@@ -1,0 +1,117 @@
+:root {
+    --text: #e3efe3;
+    --background: #101410;
+    --primary: #6a816a;
+    --secondary: #1e241e;
+    --accent: #7c937b;
+    background-color: var(--background);
+}
+
+body {
+    font-family: 'Graphik', sans-serif;
+}
+
+.primary-button {
+    padding: 1em 2em;
+    background-color: var(--primary);
+    border-radius: 6px;
+    display: inline-block;
+    cursor: pointer;
+    transition: transform ease 0.2s;
+    color: var(--background);
+    font-size: 18px;
+    z-index: 2;
+    white-space: nowrap;
+
+}
+
+.primary-text {
+    font-size: 4vh;
+    color: var(--text);
+}
+
+.main-container {
+    position: relative;
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.top-container {
+    position: relative;
+    margin-top: 10%;
+    width: auto;
+    height: 360px;
+    border-radius: 12px;
+    background-color: var(--secondary);
+
+}
+
+.avatarContainer {
+    position: absolute;
+    text-align: center;
+}
+
+.avatar {
+    position: relative;
+    border-radius: 50%;
+    border-style: double;
+    border-color: var(--secondary);
+    border-width: 18px;
+    top: -80px
+}
+
+.avatarText {
+    position: relative;
+    color: var(--text);
+    font-size: 20px;
+    text-align: center;
+    top: -100px;
+}
+
+.secondaryText {
+    position: relative;
+    color: gray;
+    font-size: 8px;
+    text-align: center;
+    top: -115px;
+}
+
+.socialsGrid {
+    position: relative;
+    top: -75px;
+    justify-content: center;
+    display: grid;
+    gap: 10px;
+    grid-auto-flow: column;
+}
+
+.social {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.location {
+    position: absolute;
+    justify-content: center;
+    top: 380px;
+    width: 370px;
+}
+
+.flag {
+    width: 32px;
+    height: 32px;
+    margin-left: 130px;
+    margin-top: -10px;
+    border-radius: 50%;
+}
+
+@media (max-width: 600px) {
+    .main-container {
+      width: 100%;
+    }
+  }
