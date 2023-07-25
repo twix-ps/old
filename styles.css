@@ -118,7 +118,8 @@ body {
     border-radius: 50%;
     border-width: 2px;
     border-color: var(--accent);
-    border-style:solid;
+    border-style: solid;
+    background-color: var(--primary);
 }
 
 .tooltip {
@@ -209,6 +210,34 @@ body {
     align-content: center;
     border-radius: 20%;
     margin-top: 20px;
+}
+
+.open-mail {
+    position: relative;
+    top: 10px;
+    left: 10px;
+    width: 48px;
+    height: 48px;
+    cursor: pointer;
+    border-radius: 6px;
+    background-color: var(--primary);
+    transition: transform 0.3 ease-in-out;
+}
+
+.open-mail:hover {
+    transform: scale(1.2);
+}
+
+.mail-text {
+    background-color: var(--primary);
+    height: 48px;
+    position: absolute;
+    margin-left: 20px;
+    top: 9px;
+    font-size: 20px;
+    font-family: 'Graphik', sans-serif;
+    color: var(--text);
+    width: 340px;
 }
 
 @media (max-width: 600px) {

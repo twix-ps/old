@@ -33,7 +33,7 @@
                     <span class="tooltiptext">
                         Play this song
                     </span>
-                    <img class="left-arrow" src="resources/arrow.png" onclick="previousSong()"></button>
+                    <img class="left-arrow" src="resources/arrow.png" loading="lazy" onclick="playSong()"></button>
                 </div>
                 <div class="center">
                     <audio id="music" controls autoplay style="margin-top: 25px">
@@ -44,8 +44,12 @@
                 <span class="tooltiptext">
                     Also play this song
                 </span>
-                    <img class="right-arrow" src="resources/arrow.png" onclick="nextSong()"></button>
+                    <img class="right-arrow" src="resources/arrow.png" onclick="playSong()"></button>
             </div>
+        </div>
+        <div class="mid-container">
+            <a onclick="sendMail()"><img class="open-mail" src="resources/openmail1.png"></a>
+            <input class="mail-text" type="text" id="mailtext" placeholder="Send me a message!">
         </div>
     </div>
 </div>
