@@ -99,17 +99,24 @@ body {
 
 .location {
     position: absolute;
+    display: flex;
     justify-content: center;
     top: 275px;
     width: 370px;
+    left: -35px;
 }
 
 .flag {
     width: 32px;
     height: 32px;
-    margin-left: 130px;
-    margin-top: -10px;
+    margin-left: -45px;
+    margin-top: 0px;
     border-radius: 50%;
+    transition: transform 0.3s ease;
+}
+
+.flag:hover {
+   transform: scale(1.2);
 }
 
 .icon {
@@ -221,7 +228,7 @@ body {
     cursor: pointer;
     border-radius: 6px;
     background-color: var(--primary);
-    transition: transform 0.3 ease-in-out;
+    transition: transform 0.3s ease-in-out;
 }
 
 .open-mail:hover {
@@ -238,6 +245,17 @@ body {
     font-family: 'Graphik', sans-serif;
     color: var(--text);
     width: 340px;
+}
+
+.psSupporter {
+    height: 32px;
+    width: 350px;
+    border-radius: 6px;
+    transition: transform 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.psSupporter:hover {
+    transform: scale(1.5);
 }
 
 @media (max-width: 600px) {
