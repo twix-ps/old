@@ -160,6 +160,8 @@ body {
 
 .mid-container {
     position: relative;
+    display: flex;
+    justify-content: center;
     margin-top: 10%;
     width: 60%;
     height: 400px;
@@ -222,7 +224,7 @@ body {
 .open-mail {
     position: relative;
     top: 10px;
-    left: 10px;
+    left: -200px;
     width: 48px;
     height: 48px;
     cursor: pointer;

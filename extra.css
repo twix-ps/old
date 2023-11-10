@@ -1,0 +1,16 @@
+.icon {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
+
+.social {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+body {
+    font-family: 'Graphik', sans-serif;
+}
