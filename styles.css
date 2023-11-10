@@ -7,6 +7,10 @@
     background-color: var(--background);
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: 'Graphik', sans-serif;
 }
