@@ -221,21 +221,6 @@ body {
     margin-top: 20px;
 }
 
-.open-mail {
-    position: relative;
-    top: 10px;
-    left: -200px;
-    width: 48px;
-    height: 48px;
-    cursor: pointer;
-    border-radius: 6px;
-    background-color: var(--primary);
-    transition: transform 0.3s ease-in-out;
-}
-
-.open-mail:hover {
-    transform: scale(1.2);
-}
 
 .mail-text {
     background-color: var(--primary);
