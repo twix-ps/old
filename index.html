@@ -11,7 +11,7 @@
     </head>
     <body>
         <div class="main-container">
-            <div class="top-container">
+            <div class="top-container" id="top-container">
                 <div class="location">
                     <a href="https://www.youtube.com/watch?v=F9czNtvvgvA" target="_blank"><img class="flag" src="resources/ANA DAMMI FALASTEENII.webp"></a>
                     <img class="psSupporter" src="https://media.discordapp.net/attachments/274654333918904330/1133442184197197964/unknown.png?width=1440&height=121">
@@ -28,7 +28,7 @@
                     </div>
                 </div>
             </div>
-            <div class="music">
+            <div class="music" id="center">
                 <div class="vert-bar tooltip">
                     <span class="tooltiptext">
                         Play this song
@@ -36,7 +36,7 @@
                     <img class="left-arrow" src="resources/arrow.png" loading="lazy" onclick="playSong()"></button>
                 </div>
                 <div class="center">
-                    <audio id="music" controls autoplay style="margin-top: 25px">
+                    <audio id="music" controls style="margin-top: 25px">
                         <source id="music-src" src="resources/music/bg.mp3">
                     </audio>
                     </div>
